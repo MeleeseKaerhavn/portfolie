@@ -1,5 +1,5 @@
 
-  /* ****************CHAT GPT SLIDER****************** */
+  /* ****************SLIDER MADE BY CHATGPT****************** */
   /* Container for positioning */
   .slider-container {
     display: flex;
@@ -46,4 +46,6 @@
   .slider-input:checked + .slider::before {
     left: calc(100% - 20px); /* Adjust based on width */
   }
+  
+
   

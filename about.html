@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/x-icon" href="img/SVG/logo.svg">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/card.css">
     <title>Forside</title>
 </head>
 <body>
     <header>
+        <input type="checkbox" id="burger-toggle"/>
+        <label for="burger-toggle" class="burger-menu">☰</label>
         <nav>
+          <div class="slider-container">
+            <input type="checkbox" id="slider" class="slider-input">
+            <label for="slider" class="slider"></label>
+          </div> 
+          <div class="logo"><a href="index.html"><img src="img/SVG/logo.png" alt="logo" width="30%"></a></div>
             <ol>
                 <li><a href="index.html">Front Page</a></li>
                 <li><a href="portfolio.html">My Work</a></li>
@@ -16,13 +28,49 @@
             </ol>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div class="img_text">
+            <img src="img/me.jpg" alt="watercolor picture inspired by the Studio Ghibli movie Arrietty">
+            <div class="overlay_text">Meleese Kærhavn</div>
+        </div>
+        <section class="front-page">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam necessitatibus, beatae voluptatibus atque adipisci vero voluptas in repellendus consectetur ipsum, veniam a non delectus iste.
+            <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi facere, non ratione molestias officiis accusamus rerum ipsa quam unde ex voluptatem pariatur sed at eaque.
+            </p>
+        </section>
+        <div class="fun_flex">
+            
+                <p>
+                    <strong>Fun fact</strong>
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit, atque, ut perferendis at ipsum nulla corrupti sapiente quae sed illo cum veritatis inventore pariatur?
+                </p>
+                <p>
+                    <strong>Fun fact</strong>
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit, atque, ut perferendis at ipsum nulla corrupti sapiente quae sed illo cum veritatis inventore pariatur?
+                </p>
+                <p>
+                    <strong> Fun fact</strong>
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit, atque, ut perferendis at ipsum nulla corrupti sapiente quae sed illo cum veritatis inventore pariatur?
+
+                </p>
+            
+        </div>
+
+
+    </main>
     <footer>
-        <ol>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
-        </ol>
-    </footer>
+        <p>I would like to say a special thanks to:</p>
+          <ol>
+              <li><a href="https://www.w3schools.com/Html/">The one that taught me what I know</a></li>
+              <li><a href="https://openai.com/index/chatgpt/">The one that helped me, when everything seemed hopeless </a></li>
+              <li><a href="https://dongs2.blogspot.com/">The one that kept me sane, in an insane time </a></li>
+          </ol>
+      </footer>
+      <script src="js/dark.js"></script>
 </body>
 </html>

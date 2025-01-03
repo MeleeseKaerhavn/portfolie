@@ -7,6 +7,17 @@ header {
     color: #fff;
   }
 
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* This ensures the logo takes up the center space */
+    text-align: center;
+    position: relative;
+    top: auto;
+    left: 10%;
+  }
+
   nav {
     display: flex;
     align-items: center;
@@ -21,6 +32,7 @@ header {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    background-color: #838E75;
   }
 
   nav li{
@@ -33,41 +45,60 @@ header {
   }
 
   nav a:hover{
-    font-size: 1.5em;
+    font-size: 1.05em;
   }
 
-  .logo img {
-    max-width: 100%; /* Ensures image scales properly */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensures the image is rendered properly */
+
+  footer{
+    align-items: center;
+    padding: 1rem;
+    background-color: #838E75;
+    color: #fff;
+}
+
+footer ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
-  
+
+  footer a{
+    text-decoration: none;
+    padding: 2em;
+    color: rgb(210, 224, 207);
+  }
+
+  footer li{
+    list-style-type: none;
+    padding: 0.1em 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* ************Burgermenu*********** */
 
   .burger-menu {
     display: none;
     font-size: 2rem;
     cursor: pointer;
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 10px;
-    z-index: 10;
   }
 
   #burger-toggle {
     display: none;
   }
 
-
-  footer ol{
-    display: flex;
-    justify-content: space-around;
-  }
-
-  footer li{
-    text-decoration: none;
-    list-style-type: none;
-  }
-  @media (max-width: 1200px) {
+  @media (max-width: 700px) {
 
     .burger-menu {
       display: block;

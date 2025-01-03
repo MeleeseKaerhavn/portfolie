@@ -3,29 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/x-icon" href="img/SVG/logo.svg">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/card.css">
     <title>Forside</title>
 </head>
 <body>
     <header>
+        <input type="checkbox" id="burger-toggle"/>
+        <label for="burger-toggle" class="burger-menu">☰</label>
         <nav>
-            <div>
-                <img src="" alt="logo">
+          <div class="slider-container">
+            <input type="checkbox" id="slider" class="slider-input">
+            <label for="slider" class="slider"></label>
+          </div>
+          <div class="logo"><a href="index.html"></a></div>
+          
             <ol>
                 <li><a href="index.html">Front Page</a></li>
                 <li><a href="portfolio.html">My Work</a></li>
                 <li><a href="about.html">About me</a></li>
             </ol>
-        </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div class="img_text">
+            <img src="img/arietty.jpg" alt="watercolor picture inspired by the Studio Ghibli movie Arrietty">
+            <div class="overlay_text">Meleese Kærhavn</div>
+        </div>
+        <section class="front-page">
+            <p>
+                Welcome to my multimediadesign exam project. 
+                <br>
+                This project is a website that consist of 3 different pages, displaying my work the past 6 months, my personality and my current skill level regarding web-buiding. 
+                <br>
+                <br>
+                Thoughout the past 6 months, I've worked on a number of projects to get me to the point I am now. These can be seen in chronological order in the <i> "My Work"</i> page. Click the card to go there. 
+                <br><br>
+                If you are intested in learning more about me in my <i>"About Me"</i> page. Click my logo to go there.
+            </p>
+        </section>
+        <div class="buttons_flex">
+            <a href="portfolio.html"><img src="img/cards/sun.png" alt=""></a>
+            <a href="about.html"><img src="img/SVG/logo_cirkel.png" alt=""></a>
+        </div>
+
+
+    </main>
     <footer>
-        <ol>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
-        </ol>
-    </footer>
+        <p>I would like to say a special thanks to:</p>
+          <ol>
+              <li><a href="https://www.w3schools.com/Html/" target="_blank">The one that taught me what I know</a></li>
+              <li><a href="https://openai.com/index/chatgpt/" target="_blank">The one that helped me, when everything seemed hopeless </a></li>
+              <li><a href="https://dongs2.blogspot.com/" target="_blank">The one that kept me sane, in an insane time </a></li>
+          </ol>
+      </footer>
+      <script src="js/dark.js"></script>
 </body>
 </html>
