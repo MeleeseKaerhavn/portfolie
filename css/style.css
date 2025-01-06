@@ -75,3 +75,23 @@
   margin: auto 2em 2em 2em;
 }
 
+@media (min-width:700px) {
+  
+  .img_text img{
+    width: 130%;
+   
+  }
+
+  .overlay_text{
+    position: absolute;
+    font-size: 2.5em;
+    top: 37%;
+    left: 45%;
+    color: #eae5d7;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 1em 0 1em;
+  }
+
+
+ 
+}

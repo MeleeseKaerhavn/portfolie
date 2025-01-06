@@ -84,13 +84,23 @@ footer ol{
   footer li{
     flex-wrap: wrap;
   }
+
   
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
+nav{
+  overflow:hidden;
+}
 
+nav a{
+  color: antiquewhite;
+}
 
-
-
+}
 
 
 
@@ -122,10 +132,19 @@ footer ol{
       position: absolute;
       top: 50px;
       right: 0;
-      background: white; 
+      background: #aebb9c; 
       width: 100%;
       z-index: 999;
     }
+
+    nav a{
+      color: antiquewhite;
+      
+    }
+    nav a:hover{
+      color: rgb(102, 102, 101);
+    }
+
   
 
     #burger-toggle:checked + label + nav ol {
