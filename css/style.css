@@ -61,11 +61,9 @@
 }
 
 .fun_flex p{
-  background-color: rgb(61, 105, 61);
+  background-color: #838E75;
   border-radius: 8px;
-  padding: 2em;
-  margin: auto 1em;
-
-
+  padding: 1em;
+  margin: auto 2em 2em 2em;
 }
-}
+
