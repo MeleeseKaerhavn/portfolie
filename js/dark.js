@@ -15,14 +15,14 @@ function changeBackground() {
     bodyElement.style.color = 'white'; 
     headerElement.style.backgroundColor ='#1F3327';
     navElement.style.backgroundColor ='#1F3327';
-    olElement.style.backgroundColor ='#5E6D58';
+    olElement.style.backgroundColor ='#1F3327';
     footerElement.style.backgroundColor ='#1F3327';
   } else {
     bodyElement.style.backgroundColor = ''; 
     bodyElement.style.color = ''; 
     headerElement.style.backgroundColor = '';
     navElement.style.backgroundColor = '';
-    olElement.style.backgroundColor ='#B0C9A3';
+    olElement.style.backgroundColor ='';
     footerElement.style.backgroundColor ='';
   }
 }

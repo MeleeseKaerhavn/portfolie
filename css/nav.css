@@ -9,14 +9,20 @@ header {
 
   .logo {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Logoet nægter at være i midten, jeg giver op! */
     align-items: center;
     flex-grow: 1; /* This ensures the logo takes up the center space */
     text-align: center;
     position: relative;
     top: auto;
     left: 10%;
+      width: 20%;
+      height: auto;
+
+    
   }
+
+
 
   nav {
     display: flex;
@@ -99,6 +105,8 @@ nav{
 nav a{
   color: antiquewhite;
 }
+
+
 
 }
 
